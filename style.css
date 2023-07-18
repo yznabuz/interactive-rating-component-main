@@ -1,0 +1,173 @@
+body {
+  background: #141519;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.container {
+  text-align: center;
+  width: 384px;
+  height: 373px;
+  padding-top: 12px;
+  background: linear-gradient(
+    0deg,
+    rgba(23, 30, 40, 1) 35%,
+    rgba(30, 37, 47, 1) 54%
+  );
+  border-radius: 20px;
+}
+#image {
+  margin: 10px 25px;
+  background-color: #3b3e43e6;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  padding: 8px;
+}
+#star {
+  width: 13px;
+  height: 13px;
+  position: relative;
+  top: 1px;
+  left: 1px;
+}
+#title {
+  font-family: "Overpass", sans-serif;
+  color: white;
+  font-size: 24px;
+  text-align: left;
+  margin: 38px 0px 12px 25px;
+}
+#disc {
+  font-family: "Overpass", sans-serif;
+  color: #858585;
+  text-align: left;
+  margin: 0px 13px 20px 25px;
+  font-size: 15px;
+}
+#btn {
+  border-radius: 20px;
+  font-family: "Overpass", sans-serif;
+  color: white;
+  background-color: #fc7613;
+  width: 85%;
+  height: 40px;
+  border: 0;
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+#btn:hover {
+  color: #fc7613;
+  background-color: white;
+  cursor: pointer;
+}
+
+fieldset {
+  border: 0;
+  padding: 1em 1.5em 0.9em;
+  margin: 1em auto;
+}
+label {
+  color: white;
+}
+.circel {
+  background-color: #3b3e43e6;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  margin: 24px 0px;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Overpass", sans-serif;
+  color: #858585;
+}
+.circel:hover,
+input:checked + .circel {
+  background-color: #fc7613;
+  color: white;
+}
+.circel:hover {
+  background-color: #7c8898;
+}
+.box {
+  display: flex;
+  justify-content: center;
+}
+input[type="radio"] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+.rate {
+  position: relative;
+  top: 8px;
+}
+
+/* submit */
+#image2 {
+  margin-top: 20px;
+}
+#title1 {
+  font-family: "Overpass", sans-serif;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  margin: 25px 0px 12px 25px;
+}
+#disc1 {
+  font-family: "Overpass", sans-serif;
+  color: #858585;
+  text-align: center;
+  margin: 0px 13px 20px 25px;
+  font-size: 15px;
+}
+#select {
+  display: flex;
+  justify-content: center;
+}
+#num {
+  background-color: #262f38;
+  padding: 8px 20px;
+  color: #fc7613;
+  font-family: "Overpass", sans-serif;
+  border-radius: 30px;
+  font-size: 15px;
+}
+
+@media (max-width: 375px) {
+  .container {
+    width: 90%;
+    height: 75%;
+  }
+  #title {
+    font-size: 30px;
+  }
+  #disc {
+    font-size: 20px;
+  }
+  #btn {
+    margin-top: 60px;
+  }
+  #star {
+    width: 20px;
+    height: 20px;
+  }
+  #image {
+    padding: 12px;
+  }
+  #num {
+    margin: 30px 0px;
+  }
+  #title1 {
+    font-size: 32px;
+  }
+  #disc1 {
+    font-size: 19px;
+    margin: 30px 13px 20px 25px;
+  }
+  #thanku {
+    height: 130px;
+    width: auto;
+  }
+}
